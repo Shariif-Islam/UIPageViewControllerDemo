@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		12071D5D1EDA9D1F0087BD7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12071D5C1EDA9D1F0087BD7E /* AppDelegate.swift */; };
-		12071D5F1EDA9D1F0087BD7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12071D5E1EDA9D1F0087BD7E /* ViewController.swift */; };
 		12071D621EDA9D1F0087BD7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12071D601EDA9D1F0087BD7E /* Main.storyboard */; };
 		12071D641EDA9D1F0087BD7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12071D631EDA9D1F0087BD7E /* Assets.xcassets */; };
 		12071D671EDA9D1F0087BD7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12071D651EDA9D1F0087BD7E /* LaunchScreen.storyboard */; };
+		12071D6F1EDAA2140087BD7E /* PageContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12071D6E1EDAA2140087BD7E /* PageContoller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12071D591EDA9D1F0087BD7E /* UIPageViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPageViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12071D5C1EDA9D1F0087BD7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		12071D5E1EDA9D1F0087BD7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12071D611EDA9D1F0087BD7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12071D631EDA9D1F0087BD7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12071D661EDA9D1F0087BD7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12071D681EDA9D1F0087BD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12071D6E1EDAA2140087BD7E /* PageContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContoller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				12071D5C1EDA9D1F0087BD7E /* AppDelegate.swift */,
-				12071D5E1EDA9D1F0087BD7E /* ViewController.swift */,
+				12071D6E1EDAA2140087BD7E /* PageContoller.swift */,
 				12071D601EDA9D1F0087BD7E /* Main.storyboard */,
 				12071D631EDA9D1F0087BD7E /* Assets.xcassets */,
 				12071D651EDA9D1F0087BD7E /* LaunchScreen.storyboard */,
@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					12071D581EDA9D1F0087BD7E = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9NGTNE5FRE;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12071D5F1EDA9D1F0087BD7E /* ViewController.swift in Sources */,
+				12071D6F1EDAA2140087BD7E /* PageContoller.swift in Sources */,
 				12071D5D1EDA9D1F0087BD7E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9NGTNE5FRE;
 				INFOPLIST_FILE = UIPageViewControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shariif..UIPageViewControllerDemo;
@@ -272,6 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9NGTNE5FRE;
 				INFOPLIST_FILE = UIPageViewControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shariif..UIPageViewControllerDemo;
